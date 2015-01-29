@@ -1,0 +1,67 @@
+.abs{
+position:absolute;
+top:40;
+}
+
+.leiste{
+position:absolute;
+left:0;
+bottom:0;
+}
+.buttons{
+position:absolute;
+right:0;
+bottom:0;
+}
+
+nav ul  li{
+	position:relative;
+	background:#ccc;
+	padding:5px;
+	list-style:none;
+	display:inline-table;
+}
+
+nav ul li a {
+	color:#000;
+	display:block;
+	text-decoration: none;
+}
+
+nav ul li:hover a{
+	color: white;
+}
+
+nav ul li:hover{
+background:black;
+}
+
+nav ul ul{
+	display:none;
+	background:#ccc;
+	position:absolute;
+	top:100%;
+
+
+}
+
+nav ul li:hover>ul{
+	display:block;
+}
+
+nav ul ul li{
+	float:none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	position:relative;
+}
+
+nav ul ul li a{
+	padding: 15px 40px;
+	color: black;
+}
+
+nav ul ul li a:hover{
+	background: #ccf;
+}
+	
