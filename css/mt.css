@@ -1,0 +1,179 @@
+body {
+font-family: arial;
+}
+
+.abs{
+font-size:20px
+position:absolute;
+top:40;
+}
+
+.leiste{
+position:absolute;
+left:0;
+bottom:0;
+}
+.buttons{
+position:absolute;
+right:0;
+bottom:0;
+}
+
+nav ul  li{
+	font-size: 18px;
+	font-family: arial;
+	position:relative;
+	background:#6E7274;
+	padding:5px;
+	list-style:none;
+	display:inline-table;
+	z-index: 8;
+}
+
+nav ul li a {
+	color: #000;
+	display:block;
+	text-decoration: none;
+}
+
+nav ul li:hover a{
+	color: white;
+}
+
+nav ul li:hover{
+	background:#5AC8F6;
+}
+
+nav ul li ul{
+	display:none;
+	background:#6E7274;
+	position:absolute;
+	top:100%;
+}
+
+nav ul li:hover>ul{
+	display:block;
+}
+
+nav ul ul li{
+	float:none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	position:relative;
+}
+
+nav ul ul li a{
+	padding: 15px 40px;
+	color: black;
+}
+
+nav ul ul li a:hover{
+	background: #ccf;
+}
+
+#navbar_content {
+	position: relative;
+	left: -50px;
+}
+
+#navbar_social {
+	padding: 15px 0px;
+	position: relative;
+	left: 15px;
+}
+
+#navbar_international {
+	padding: 15px 0px;
+	position: relative;
+	left: 70px;
+}
+
+#program {	
+	background: #ccc;
+	font-size: 18px;
+	font-family: arial;	
+}
+
+.button {
+	float:left;
+	position: relative;
+	padding: 5px;
+}
+
+.button_selected {
+	float:left;
+	position: relative;
+	padding: 5px;
+	background: #000;
+	color: #fff;
+}
+
+.project {
+	text-align:justify;
+	padding:20px;
+	border: thin solid;
+	margin: 5px	
+	background: #79E99B;
+}
+
+.event {
+	padding:5px;
+	border: thin solid;
+	margin: 5px	
+}
+
+.event_selected {
+	/*text-align:justify;*/
+	padding:5px;
+	border: thin solid;
+	margin: 5px;
+	display: none;	
+}
+
+#event_1 {
+	background: #79E99B;
+}
+
+#event_selected_1 {
+	background: #79E99B;
+}
+
+#event_2 {
+	background: #FEEF77;
+}
+
+#event_selected_2 {
+	background: #FEEF77;
+}
+
+#event_3 {
+	background: #FEABAB;
+}
+
+#event_selected_3 {
+	background: #FEABAB;
+}
+
+#event_4 {
+	background: #79E99B;
+}
+
+#event_selected_4 {
+	background: #79E99B;
+}
+
+#event_5 {
+	background: #FEEF77;
+}
+
+#event_selected_5 {
+	background: #FEEF77;
+}
+
+#event_6 {
+	background: #FEABAB;
+}
+
+#event_selected_6 {
+	background: #FEABAB;
+}

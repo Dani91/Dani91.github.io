@@ -1,0 +1,46 @@
+
+div.funktion img:hover{
+z-index:3;
+
+}
+div.funktion span{
+position:absolute;
+z-index:4;
+}
+div.funktion img{
+position:absolute;
+z-index:5;
+}
+
+div.text img{
+position:absolute;
+z-index:-8;
+}
+
+div.text span{
+position:absolute;
+z-index:-7;
+}
+
+.rel{
+position:relative;
+height:185px;
+}
+
+.rel2{
+position:relative;
+height:385px;
+}
+
+body{
+background:#ccc;
+}
+
+div.textfeld span{
+position:absolute;
+}
+
+div.textfeld img{
+position:absolute;
+}
+
